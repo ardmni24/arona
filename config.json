@@ -1,0 +1,19 @@
+{
+  "Settings": {
+    "prefix": ".a ",
+    "isMaintenance": true,
+    "runtimeConfiguration": {
+      "require_plana_existence": true,
+      "leave_on_loss_permission": true
+    }
+  },
+  "Colours": {
+    "default": "a7f8ff",
+    "schale": "00adff",
+    "native": {
+      "green": "b9fd46",
+      "yellow": "ffe500",
+      "red": "cb3340"
+    }
+  }
+}

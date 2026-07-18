@@ -1,0 +1,40 @@
+{
+  "name": "arona",
+  "version": "1.0.0",
+  "description": "Project of ArcaneX - Schale Archive, ltd.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node . 3000",
+    "rebuild": "rm -rf node_modules package-lock.json && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardmni24/arona.git"
+  },
+  "keywords": [
+    "javascript",
+    "application",
+    "node",
+    "discord",
+    "esmodule",
+    "bluearchive"
+  ],
+  "author": "ArcaneX (https://github.com/ardmni24)",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ardmni24/arona/issues"
+  },
+  "homepage": "https://github.com/ardmni24/arona#readme",
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "colors": "^1.4.0",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "quick.db": "^9.1.7"
+  }
+}
